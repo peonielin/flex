@@ -24,6 +24,8 @@ ul {
   list-style-type: none;
   display:flex;
   margin:4px;
+  justify-content:space-between; 
+  
 }
 
 a {
@@ -34,4 +36,5 @@ a {
   text-decoration: none;
   display:flex;
   margin:4px;
+  
 }
