@@ -25,6 +25,7 @@ ul {
   display:flex;
   margin:4px;
   justify-content:space-between; 
+  padding:0
   
 }
 
@@ -34,7 +35,6 @@ a {
   padding: 8px;
   /* this removes the line under the links */
   text-decoration: none;
-  display:flex;
   margin:4px;
   
 }
