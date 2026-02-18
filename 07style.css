@@ -5,24 +5,38 @@ body {
   display:flex;
   flex-direction:column;
 }
-
+.content{
+  display:flex;
+}
 .header {
   height: 72px;
   background: darkmagenta;
   color: white;
-  
+  font-weight:900;
+  padding-left:16px;
+  display: flex;
+  align-items: center;
+  font-size:32px;
 }
 
 .footer {
   height: 72px;
   background: #eee;
   color: darkmagenta;
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex-basis:300px;
+  padding:16px;
+  min-width: 300px;   
+  flex-shrink: 0;     
 }
 
 .card {
@@ -31,26 +45,32 @@ body {
   border-radius: 4px;
 }
 
-.content{
-  display:flex;
-}
 
 ul{
   list-style-type:none;
   display:flex;
   flex-direction:column;
   margin: 0;
-  padding: 20px;
+  padding-bottom:16px;
+  font-size:24px;
+
 }
 
 a {
   text-decoration: none;
   color:white;
+
   
 }
 
 .information {
   display:flex;
-  margin:50px;
+  gap:48px;
+  margin:48px;
   flex-wrap:wrap;
+  padding:48px;
+}
+
+.card {
+  flex: 0 0 300px;
 }
